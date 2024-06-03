@@ -33,7 +33,6 @@ function createBot() {
     bot.on('login', function() {
         console.log("Logged In");
         connected = true;
-        bot.chat("hello");
     });
 
     bot.on('time', function(time) {
